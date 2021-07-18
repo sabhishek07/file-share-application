@@ -1,0 +1,23 @@
+{
+  "name": "jeevitiv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.6.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "abhi",
+  "license": "ISC"
+}
